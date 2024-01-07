@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="author" content="Olamide Olateju Emmanuel">
+        <title>Device Details Finder in HTML,CSS,JavaScript</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+        </head>
+    <body class="container" onload="getDeviceDetails();">
+        
+        <noscript>
+            This website requires JavaScript to be enabled.
+            </noscript>
+            
+        <h2 class="header-1">Device Info Finder</h2>
+        <div class="device-info-list">
+            <div class="info-list" id="os">
+                <h2>OS</h2>
+                <p class="fa fa-linux icon" id="osIcon"></p>
+                <p class="info-text"> </p>
+                <p id="osInfo"> </p>
+            </div>
+
+            <div class="info-list">
+                <h2>BATTERY</h2>
+                <span id="bolt" class="fa  icon"> </span>
+                <p class="fa fa-battery-4 icon battery" id="batteryClass"></p>
+                <p class="info-text" id="batteryLevel">Current Battery Level is : </p>
+                <p id="batteryStatus"> </p>
+                
+            </div>
+
+            <div class="info-list">
+                <h2>RAM</h2>
+                <p class="fa fa-hdd-o icon"> </p>
+                <p class="info-text" id="memory">DEVICE RAM:</p>
+                <p id="deviceRAM"></p>
+            </div>
+
+
+            <div class="info-list">
+                <h2>BROWSER</h2>
+                <p class="fa fa-chrome icon" id="browsericon"></p>
+                <p class="" id="browser-type"></p>
+                
+            </div>
+            
+            <div class="info-list">
+                <h2>DATE</h2>
+                <p class="fa fa-calendar icon"></p>
+                <p class="info-text" id="dateInfo"></p>
+            </div>
+            
+            <div class="info-list">
+                <h2>PROCESSOR</h2>
+                <p class="fa fa-window-maximize icon"></p>
+                <p class="info-text" id="processor">YOU HAVE </p>
+            </div>
+
+            <div class="info-list">
+                <H2>BROWSER VERSION</H2>
+                <p class="fa fa-"> </p>
+                <p class="" id="browser-data"></p>
+                <!-- <button title="Copy Your Browser Info"><i class="fa fa-copy"></i> </button> -->
+            </div>
+
+            <div class="info-list">
+                <h2>PLATFORM </h2>
+                <p class="fa fa-laptop icon"> </p>
+                <p id="platform"></p>
+                
+            </div>
+
+            <div class="info-list">
+                <h2>SCREEN SIZE </h2>
+                <p class="fa fa-desktop icon"> </p>
+                <p id="screen-size"> </p>
+                <p id="screen-size-2"></p>
+                
+            </div>
+
+        </div>
+
+
+
+    </body>
+    <script type="text/javascript" src="script.js">
+       
+    </script>
+    </html>
